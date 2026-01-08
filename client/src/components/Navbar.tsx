@@ -278,6 +278,15 @@ export function Navbar() {
             ))}
           </div>
 
+          <a href="https://www.shopify.com/in?gad_source=1" target="_blank" rel="noopener noreferrer" className="hidden lg:block">
+            <Button className={cn(
+              "ml-4 h-12 rounded-xl font-bold",
+              scrolled || isContactPage ? "bg-blue-600 hover:bg-blue-700 text-white" : "bg-blue-600 hover:bg-blue-700 text-white"
+            )}>
+              Shop Now
+            </Button>
+          </a>
+
           <button
             onClick={() => setIsOpen(!isOpen)}
             className={cn(
@@ -349,6 +358,11 @@ export function Navbar() {
                 Get Started
               </Button>
             </Link>
+              <a href="https://www.shopify.com/in?gad_source=1" target="_blank" rel="noopener noreferrer" className="lg:hidden block">
+                <Button className="w-full rounded-2xl h-16 text-xl font-black bg-green-600 hover:bg-green-700 shadow-xl">
+                  Shop Now
+                </Button>
+              </a>
         </div>
       </div>
     </nav>
