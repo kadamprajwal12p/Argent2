@@ -130,12 +130,12 @@ export function Navbar() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <Link href="/" className="group flex items-center gap-4 shrink-0 pr-12">
-            <div className="w-11 h-11 bg-gradient-to-br from-blue-700 to-blue-500 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-blue-500/25 transition-all">
+            <div className="w-11 h-11 bg-gradient-to-br from-emerald-600 to-emerald-400 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-emerald-500/25 transition-all">
               <span className="text-white font-display font-bold text-2xl">I</span>
             </div>
             <span className={cn(
               "font-display font-bold text-2xl tracking-tight transition-colors ml-1",
-              scrolled || isContactPage ? "text-slate-900" : "text-slate-900 lg:text-white"
+              scrolled || isContactPage ? "text-slate-900" : "text-slate-900 lg:text-emerald-400"
             )}>
               INTERCORP
             </span>
@@ -280,8 +280,8 @@ export function Navbar() {
 
           <a href="https://www.shopify.com/in?gad_source=1" target="_blank" rel="noopener noreferrer" className="hidden lg:block">
             <Button className={cn(
-              "ml-4 h-12 rounded-xl font-bold",
-              scrolled || isContactPage ? "bg-blue-600 hover:bg-blue-700 text-white" : "bg-blue-600 hover:bg-blue-700 text-white"
+              "ml-6 h-12 px-6 min-w-[170px] rounded-xl font-bold text-lg",
+              scrolled || isContactPage ? "bg-emerald-600 hover:bg-emerald-700 text-white" : "bg-emerald-600 hover:bg-emerald-700 text-white"
             )}>
               Shop Now
             </Button>
@@ -359,7 +359,7 @@ export function Navbar() {
               </Button>
             </Link>
               <a href="https://www.shopify.com/in?gad_source=1" target="_blank" rel="noopener noreferrer" className="lg:hidden block">
-                <Button className="w-full rounded-2xl h-16 text-xl font-black bg-green-600 hover:bg-green-700 shadow-xl">
+                <Button className="w-full rounded-2xl h-16 text-xl font-black bg-emerald-600 hover:bg-emerald-700 shadow-xl">
                   Shop Now
                 </Button>
               </a>
