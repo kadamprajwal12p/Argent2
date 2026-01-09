@@ -36,6 +36,12 @@ export function PageHeader({ title, description, image }: PageHeaderProps) {
           </p>
         </motion.div>
       </div>
+      {/* Thumbnail for quick confirmation of the background image (visible for debugging) */}
+      <div className="absolute right-6 bottom-6 z-20 hidden md:block">
+        <div className="w-40 h-24 rounded-xl overflow-hidden border-2 border-white shadow-lg">
+          <img src={image} alt={`${title} thumbnail`} className="w-full h-full object-cover" />
+        </div>
+      </div>
     </div>
   );
 }
