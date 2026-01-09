@@ -41,7 +41,7 @@ const products = [
     usage: "Breeder and Layer Feed",
     rate: "2.5kg per ton of feed",
     packing: "25kg multi-wall bags",
-    image: "https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&q=80&w=800",
+    image: "/images/poultry-nutrition.avif",
     color: "bg-blue-600"
   },
   {
@@ -78,7 +78,7 @@ export default function PoultryNutrition() {
       <PageHeader 
         title="Poultry Nutrition" 
         description="Precision micronutrient solutions for optimized growth and peak egg production."
-        image="https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&q=80&w=2000"
+        image="/images/poultry-nutrition.avif"
       />
 
       <section className="py-24 bg-white overflow-hidden">

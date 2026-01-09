@@ -238,7 +238,7 @@ export default function Home() {
                 title: "Poultry Nutrition",
                 desc: "Optimized growth and gut health for poultry.",
                 href: "/animal-nutrition/poultry",
-                img: "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&q=80&w=800"
+                img: "/images/poultry-nutrition.avif"
               },
               {
                 title: "Livestock Nutrition",
