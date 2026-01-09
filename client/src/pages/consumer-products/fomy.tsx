@@ -29,7 +29,7 @@ const products = [
     usage: "Waterless sanitization", 
     rate: "2ml per application", 
     packing: "1L Dispenser",
-    image: "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&q=80&w=800",
+    image: "/images/handwash.jpg",
     color: "bg-blue-600"
   },
   { 
@@ -37,7 +37,7 @@ const products = [
     usage: "Deep hand cleaning", 
     rate: "1 pump per wash", 
     packing: "500ml Bottle",
-    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=800",
+    image: "/images/dish-washer.jpg",
     color: "bg-teal-600"
   },
   { 
@@ -45,7 +45,7 @@ const products = [
     usage: "On-the-go protection", 
     rate: "Ready to use", 
     packing: "100ml Travel Size",
-    image: "https://images.unsplash.com/photo-1583947582993-979929897585?auto=format&fit=crop&q=80&w=800",
+    image: "/images/handwash.jpg",
     color: "bg-cyan-600"
   },
   { 
@@ -53,7 +53,7 @@ const products = [
     usage: "High-touch surface hygiene", 
     rate: "Spray and wait 30s", 
     packing: "5L Canister",
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800",
+    image: "/images/sanitization-kit.jpg",
     color: "bg-indigo-600"
   }
 ];
@@ -65,7 +65,7 @@ export default function FomyHygiene() {
       <PageHeader 
         title="FOMY Hygiene"
         description="Professional hand hygiene and sanitization products for ultimate safety."
-        image="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&q=80&w=2000"
+        image="/images/handwash.jpg"
       />
 
       <section className="py-24 bg-white overflow-hidden">

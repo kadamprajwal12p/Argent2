@@ -29,7 +29,7 @@ const products = [
     usage: "Delicate glassware & fine china", 
     rate: "Dilute 1:100", 
     packing: "1L Bottle",
-    image: "https://images.unsplash.com/photo-1527515545081-5db817172677?auto=format&fit=crop&q=80&w=800",
+    image: "/images/dish-washer.jpg",
     color: "bg-blue-600"
   },
   { 
@@ -37,7 +37,7 @@ const products = [
     usage: "Commercial dishwashing systems", 
     rate: "Automated dosing", 
     packing: "20L Drum",
-    image: "https://images.unsplash.com/photo-1585833014766-72989708bc91?auto=format&fit=crop&q=80&w=800",
+    image: "/images/dish-washer.jpg",
     color: "bg-cyan-600"
   },
   { 
@@ -45,7 +45,7 @@ const products = [
     usage: "Stainless steel surfaces", 
     rate: "Spray and wipe", 
     packing: "500ml Spray",
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800",
+    image: "/images/sanitization-kit.jpg",
     color: "bg-indigo-600"
   },
   { 
@@ -53,7 +53,7 @@ const products = [
     usage: "Spotless drying cycle", 
     rate: "Dishwasher add-on", 
     packing: "5L Canister",
-    image: "https://images.unsplash.com/photo-1595981267035-7b04ca84a810?auto=format&fit=crop&q=80&w=800",
+    image: "/images/handwash.jpg",
     color: "bg-teal-600"
   }
 ];
@@ -65,7 +65,7 @@ export default function BubbzSolutions() {
       <PageHeader 
         title="BUBBZ Solutions"
         description="Premium cleaning and rinsing agents for sparkling results every time."
-        image="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=2000"
+        image="/images/sanitization-kit.jpg"
       />
 
       <section className="py-24 bg-white overflow-hidden">

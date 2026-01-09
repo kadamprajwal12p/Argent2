@@ -190,7 +190,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl group">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200" 
+                src="/images/poultry-nutrition.avif" 
                 alt="Product Showcase" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -244,13 +244,13 @@ export default function Home() {
                 title: "Livestock Nutrition",
                 desc: "Peak productivity and health for cattle and sheep.",
                 href: "/animal-nutrition/livestock",
-                img: "https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&q=80&w=800"
+                img: "/images/livestock-nutrition.jpg"
               },
               {
                 title: "Aquaculture Nutrition",
                 desc: "Resilient growth for fish and shrimp species.",
                 href: "/animal-nutrition/aquaculture",
-                img: "https://images.unsplash.com/photo-1524704654690-b56c05c78a00?auto=format&fit=crop&q=80&w=800"
+                img: "/images/poultry-nutrition.avif"
               }
             ].map((div, i) => (
               <Link key={i} href={div.href} className="group relative h-[450px] rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all block">

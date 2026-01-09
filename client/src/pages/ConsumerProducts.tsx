@@ -14,7 +14,7 @@ export default function ConsumerProducts() {
       <PageHeader 
         title="Consumer Products" 
         description="Ensuring safety and hygiene in every home with advanced water purification and sanitation solutions."
-        image="https://images.unsplash.com/photo-1538300342682-cf57afb97285?auto=format&fit=crop&q=80&w=2000"
+        image="/images/poultry-nutrition.avif"
       />
 
       <section className="py-24">

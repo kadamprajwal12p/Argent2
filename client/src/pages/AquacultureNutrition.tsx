@@ -31,7 +31,7 @@ const products = [
     usage: "Digestive enzyme-mineral blend", 
     rate: "1.5kg/MT", 
     packing: "25kg Bag",
-    image: "https://images.unsplash.com/photo-1524704654690-b56c05c78a00?auto=format&fit=crop&q=80&w=800",
+    image: "/images/poultry-nutrition.avif",
     color: "bg-cyan-600"
   },
   { 
@@ -39,7 +39,7 @@ const products = [
     usage: "Vitamins and electrolyte rich", 
     rate: "1kg/MT", 
     packing: "10kg Drum",
-    image: "https://images.unsplash.com/photo-1534043464124-3be32fe000c9?auto=format&fit=crop&q=80&w=800",
+    image: "/images/poultry-nutrition.avif",
     color: "bg-blue-600"
   },
   { 
@@ -47,7 +47,7 @@ const products = [
     usage: "High-bioavailability minerals", 
     rate: "2kg/MT", 
     packing: "25kg Bag",
-    image: "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&q=80&w=800",
+    image: "/images/poultry-nutrition.avif",
     color: "bg-teal-600"
   },
   { 
@@ -55,7 +55,7 @@ const products = [
     usage: "Water quality and gut health", 
     rate: "500g/MT", 
     packing: "5kg Drum",
-    image: "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&q=80&w=800",
+    image: "/images/poultry-nutrition.avif",
     color: "bg-indigo-600"
   }
 ];
@@ -68,7 +68,7 @@ export default function AquacultureNutrition() {
       <PageHeader 
         title="Aquaculture Nutrition" 
         description="Advanced nutritional systems for resilient and high-growth aquatic species."
-        image="https://images.unsplash.com/photo-1524704654690-b56c05c78a00?auto=format&fit=crop&q=80&w=2000"
+        image="/images/poultry-nutrition.avif"
       />
 
       <section className="py-24 bg-white overflow-hidden">

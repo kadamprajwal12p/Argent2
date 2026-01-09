@@ -71,7 +71,7 @@ export default function AnimalNutrition() {
       <PageHeader 
         title={data.title}
         description="Precision micronutrient solutions for high-performance animal nutrition."
-        image="https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&q=80&w=2000"
+        image="/images/livestock-nutrition.jpg"
       />
 
       <section className="py-24">

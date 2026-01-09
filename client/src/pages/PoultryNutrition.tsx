@@ -49,7 +49,7 @@ const products = [
     usage: "Commercial Layer operations",
     rate: "1kg per ton of feed",
     packing: "10kg & 25kg buckets",
-    image: "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&q=80&w=800",
+    image: "/images/livestock-nutrition.jpg",
     color: "bg-amber-600"
   },
   {
@@ -57,7 +57,7 @@ const products = [
     usage: "Water Sanitation & Gut health",
     rate: "500ml per 1000L water",
     packing: "5L & 20L canisters",
-    image: "https://images.unsplash.com/photo-1594488490333-659f42441999?auto=format&fit=crop&q=80&w=800",
+    image: "/images/sanitization-kit.jpg",
     color: "bg-emerald-600"
   },
   {
@@ -65,7 +65,7 @@ const products = [
     usage: "Broiler Pre-starter & Starter",
     rate: "2kg per ton of feed",
     packing: "25kg bags",
-    image: "https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&q=80&w=800",
+    image: "/images/flour.webp",
     color: "bg-indigo-600"
   }
 ];

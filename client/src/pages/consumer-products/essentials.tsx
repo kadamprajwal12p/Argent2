@@ -29,7 +29,7 @@ const products = [
     usage: "Everyday hand dishwashing", 
     rate: "2-3 drops per sponge", 
     packing: "750ml Bottle",
-    image: "https://images.unsplash.com/photo-1585833014766-72989708bc91?auto=format&fit=crop&q=80&w=800",
+    image: "/images/dish-washer.jpg",
     color: "bg-blue-600"
   },
   { 
@@ -37,7 +37,7 @@ const products = [
     usage: "Daily hand hygiene", 
     rate: "Single pump use", 
     packing: "500ml Bottle",
-    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=800",
+    image: "/images/handwash.jpg",
     color: "bg-teal-600"
   },
   { 
@@ -45,7 +45,7 @@ const products = [
     usage: "General surface cleaning", 
     rate: "Ready to use spray", 
     packing: "500ml Bottle",
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800",
+    image: "/images/sanitization-kit.jpg",
     color: "bg-indigo-600"
   },
   { 
@@ -53,7 +53,7 @@ const products = [
     usage: "Window and mirror shine", 
     rate: "Ready to use spray", 
     packing: "500ml Bottle",
-    image: "https://images.unsplash.com/photo-1527515545081-5db817172677?auto=format&fit=crop&q=80&w=800",
+    image: "/images/dish-washer.jpg",
     color: "bg-cyan-600"
   }
 ];
@@ -65,7 +65,7 @@ export default function EssentialsKit() {
       <PageHeader 
         title="Essentials Kit"
         description="The perfect selection of high-quality cleaning products for every home."
-        image="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&q=80&w=2000"
+        image="/images/handwash.jpg"
       />
 
       <section className="py-24 bg-white overflow-hidden">

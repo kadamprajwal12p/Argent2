@@ -29,7 +29,7 @@ const products = [
     usage: "High-concentration cleaning", 
     rate: "5ml per 1L water", 
     packing: "5L Canister",
-    image: "https://images.unsplash.com/photo-1585833014766-72989708bc91?auto=format&fit=crop&q=80&w=800",
+    image: "/images/dish-washer.jpg",
     color: "bg-blue-600"
   },
   { 
@@ -37,7 +37,7 @@ const products = [
     usage: "99.9% germ protection", 
     rate: "Ready to use", 
     packing: "1L Dispenser",
-    image: "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&q=80&w=800",
+    image: "/images/handwash.jpg",
     color: "bg-cyan-600"
   },
   { 
@@ -45,7 +45,7 @@ const products = [
     usage: "Multi-surface disinfection", 
     rate: "10ml per 1L water", 
     packing: "5L Canister",
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800",
+    image: "/images/sanitization-kit.jpg",
     color: "bg-indigo-600"
   },
   { 
@@ -53,7 +53,7 @@ const products = [
     usage: "Gentle skin cleaning", 
     rate: "Ready to use", 
     packing: "500ml Pump",
-    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=800",
+    image: "/images/handwash.jpg",
     color: "bg-teal-600"
   }
 ];
@@ -65,7 +65,7 @@ export default function UltimateBundle() {
       <PageHeader 
         title="ULTIMATE Bundle"
         description="Our most comprehensive solution for professional cleaning and hygiene needs."
-        image="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=2000"
+        image="/images/sanitization-kit.jpg"
       />
 
       <section className="py-24 bg-white overflow-hidden">
