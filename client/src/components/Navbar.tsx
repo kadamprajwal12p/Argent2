@@ -116,6 +116,9 @@ export function Navbar() {
     const searchParams = new URLSearchParams();
     searchParams.set("subtype", subtype);
     setLocation(`${href}?${searchParams.toString()}`);
+    // close any open menus after navigation
+    setActiveSubmenu(null);
+    setIsOpen(false);
   };
 
   const isContactPage = location === "/contact";
@@ -192,9 +195,13 @@ export function Navbar() {
                           if (item.label === "Animal Nutrition") {
                             const id = type.split(' ')[0].toLowerCase();
                             setLocation(`/animal-nutrition/${id}`);
+                            setActiveSubmenu(null);
+                            setIsOpen(false);
                           } else if (item.label === "Consumer Products") {
                             const id = type.split(' ')[0].toLowerCase();
                             setLocation(`/consumer-products/${id}`);
+                            setActiveSubmenu(null);
+                            setIsOpen(false);
                           } else {
                             handleSubmenuClick(item.href, type);
                           }
