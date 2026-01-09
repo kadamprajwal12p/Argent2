@@ -42,77 +42,77 @@ const SUBTYPE_CONTENT: Record<string, { description: string, need: string, color
     need: "Edible oil is an ideal vehicle for fortification as it's used in every household. Fortifying with fat-soluble vitamins helps bridge nutritional gaps efficiently.",
     color: "bg-amber-500",
     productImages: [
-      "https://images.unsplash.com/photo-1474979266404-7eaacabc8805?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1547514701-42782101795e?auto=format&fit=crop&q=80&w=800"
+      "/images/edible-oile.webp",
+      "/images/edible-oile.webp"
     ],
-    heroImage: "https://images.unsplash.com/photo-1547514701-42782101795e?auto=format&fit=crop&q=80&w=2000"
+    heroImage: "/images/edible-oile.webp"
   },
   "Milk & Dairy": {
     description: "Nourishing lives through vitamin-enriched dairy solutions.",
     need: "India is the world's largest milk producer. Fortifying milk with Vitamin A & D is a strategic move to address widespread deficiencies in urban and rural populations.",
     color: "bg-blue-500",
     productImages: [
-      "https://images.unsplash.com/photo-1550583726-016c9e230555?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1563636619-e9107da5a76a?auto=format&fit=crop&q=80&w=800"
+      "/images/milk-and-dairy.jpg",
+      "/images/milk-and-dairy.jpg"
     ],
-    heroImage: "https://images.unsplash.com/photo-1561484930-998b6a7b22e8?auto=format&fit=crop&q=80&w=2000"
+    heroImage: "/images/milk-and-dairy.jpg"
   },
   "Rice / FRK": {
     description: "Enriching staples with essential iron and vitamins.",
     need: "Fortified Rice Kernels (FRK) provide a cost-effective way to deliver iron, folic acid, and Vitamin B12 to millions who rely on rice as their primary starch.",
     color: "bg-emerald-500",
     productImages: [
-      "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?auto=format&fit=crop&q=80&w=800"
+      "/images/flour.webp",
+      "/images/flour.webp"
     ],
-    heroImage: "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?auto=format&fit=crop&q=80&w=2000"
+    heroImage: "/images/flour.webp"
   },
   "Flour": {
     description: "Precision premixes for nutritionally superior wheat flour.",
     need: "Wheat flour fortification helps combat anemia and neural tube defects by adding iron, folic acid, and B-vitamins during the milling process.",
     color: "bg-orange-500",
     productImages: [
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=800"
+      "/images/flour.webp",
+      "/images/flour.webp"
     ],
-    heroImage: "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&q=80&w=2000"
+    heroImage: "/images/flour.webp"
   },
   "Salt": {
     description: "Double fortification for iodine and iron sufficiency.",
     need: "Beyond iodine, double fortified salt (DFS) is a revolutionary tool to provide iron to the masses without changing dietary habits.",
     color: "bg-slate-400",
     productImages: [
-      "https://images.unsplash.com/photo-1626197031507-c17099753214?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1518110903476-78767798360d?auto=format&fit=crop&q=80&w=800"
+      "/images/salt.jpg",
+      "/images/salt.jpg"
     ],
-    heroImage: "https://images.unsplash.com/photo-1626197031507-c17099753214?auto=format&fit=crop&q=80&w=2000"
+    heroImage: "/images/salt.jpg"
   },
   "Bread, Biscuit & Bakery": {
     description: "Enhancing the nutritional value of your favorite baked goods.",
     need: "Bakery products are fast-moving consumer goods. Fortification turns these treats into nutritional assets for busy modern lifestyles.",
     color: "bg-rose-500",
     productImages: [
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&q=80&w=800"
+      "/images/flour.webp",
+      "/images/flour.webp"
     ],
-    heroImage: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=2000"
+    heroImage: "/images/flour.webp"
   },
   "Breakfast Cereals": {
     description: "Starting the day with a complete spectrum of micronutrients.",
     need: "Cereals are the first meal for many children. Fortification ensures they get the vitamins and minerals needed for cognitive and physical growth.",
     color: "bg-purple-500",
     productImages: [
-      "https://images.unsplash.com/photo-1521483451569-e33803c0330c?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1582401656496-9d75f95f9018?auto=format&fit=crop&q=80&w=800"
+      "/images/flour.webp",
+      "/images/flour.webp"
     ],
-    heroImage: "https://images.unsplash.com/photo-1582401656496-9d75f95f9018?auto=format&fit=crop&q=80&w=2000"
+    heroImage: "/images/flour.webp"
   }
 };
 
 export default function HumanNutrition() {
   const searchParams = new URLSearchParams(useSearch());
   const subtypeFromUrl = searchParams.get("subtype");
-  const [activeSubtype, setActiveSubtype] = useState(subtypeFromUrl || SUBTYPES[0]);
+  const [activeSubtype, setActiveSubtype] = useState(subtypeFromUrl || "Milk & Dairy");
 
   useEffect(() => {
     if (subtypeFromUrl && subtypeFromUrl !== activeSubtype) {

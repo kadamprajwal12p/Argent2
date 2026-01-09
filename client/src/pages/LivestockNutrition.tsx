@@ -31,7 +31,7 @@ const products = [
     usage: "Dairy cattle yield enhancement", 
     rate: "2kg/MT", 
     packing: "25kg Bag",
-    image: "https://images.unsplash.com/photo-1546445317-29f4545e9d53?auto=format&fit=crop&q=80&w=800",
+    image: "/images/milk-and-dairy.jpg",
     color: "bg-blue-600"
   },
   { 
@@ -39,7 +39,7 @@ const products = [
     usage: "Chelated trace minerals", 
     rate: "1kg/MT", 
     packing: "25kg Bag",
-    image: "https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&q=80&w=800",
+    image: "/images/livestock-nutrition.jpg",
     color: "bg-emerald-600"
   },
   { 
@@ -47,7 +47,7 @@ const products = [
     usage: "Metabolic support premix", 
     rate: "1kg/MT", 
     packing: "10kg Drum",
-    image: "https://images.unsplash.com/photo-1596733430284-f7437764b1a9?auto=format&fit=crop&q=80&w=800",
+    image: "/images/sanitization-kit.jpg",
     color: "bg-purple-600"
   },
   { 
@@ -55,7 +55,7 @@ const products = [
     usage: "Reproductive health formula", 
     rate: "500g/MT", 
     packing: "5kg Bag",
-    image: "https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&q=80&w=800",
+    image: "/images/livestock-nutrition.jpg",
     color: "bg-amber-600"
   }
 ];
@@ -68,7 +68,7 @@ export default function LivestockNutrition() {
       <PageHeader 
         title="Livestock Nutrition" 
         description="Peak productivity and holistic health solutions for cattle and sheep."
-        image="https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&q=80&w=2000"
+        image="/images/livestock-nutrition.jpg"
       />
 
       <section className="py-24 bg-white overflow-hidden">
